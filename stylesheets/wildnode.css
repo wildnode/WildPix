@@ -104,3 +104,26 @@ header li img {
 .header-wildnode-btn {
 	width: 66%;
 }
+.project-icon {
+	float: left;
+	width: 55px;
+	margin-right: 10px;
+}
+
+
+@media print, screen and (max-width: 960px) {
+div.project-item {
+	width: 270px;
+	height: 120px;	
+	}
+
+}
+
+@media print, screen and (max-width: 720px) {
+header ul {
+	width: 100%;
+	}
+}
+
+@media print, screen and (max-width: 480px) {
+}
